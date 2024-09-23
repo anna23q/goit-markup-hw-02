@@ -6,82 +6,118 @@
     <title>WebStudio</title>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
-    </header>
 
-    <!-- Main content -->
-    <main>
-        <!-- Section 1 -->
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+ <!-- Header -->
+ <header>
+    <nav class="main-nav">
+        <a href="./index.html" class="logo">
+            <span class="logo-text">Web</span><span class="studio-text">Studio</span>
+        </a>
+        <ul>
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./studio.html" class="nav-link">Studio</a></li>
+            <li><a href="./portfolio.html" class="nav-link">Portfolio</a></li>
+            <li><a href="./contacts.html" class="nav-link">Contacts</a></li>
+        </ul>
+    </nav>
+    <address class="contact-info">
+        <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+    </address>
+</header>
+
+<section class="main-section">
+    <h1 class="main-heading">Effective Solutions for Your Business</h1>
+    <button class="main-button">Order Service</button>
+</section>
+
+    <section class="features-section">
+        <ul>
+            <li>
+                <h3 class="feature-heading">Strategy</h3>
+                <p class="feature-paragraph">Our goal is to identify the business problem and create a perfect and creative solution.</p>
+            </li>
+            <li>
+                <h3 class="feature-heading">Punctuality</h3>
+                <p class="feature-paragraph">Bring the key message to the target audience in the shortest time.</p>
+            </li>
+            <li>
+                <h3 class="feature-heading">Diligence</h3>
+                <p class="feature-paragraph">Research and confirm trends for strong digital growth and minimize risks.</p>
+            </li>
+            <li>
+                <h3 class="feature-heading">Technologies</h3>
+                <p class="feature-paragraph">Design practice focused on digital experiences with deep problem-solving skills.</p>
+            </li>
+        </ul>
+    </section>
+
+
+
+        <section class="team-section">
+            <h2 class="team-heading">Our Team</h2>
+            <ul class="team-list">
+                <li class="team-member">
+                    <img src="./images/img.jpg" alt="Mark Guerrero">
+                    <h3 class="team-name">Mark Guerrero</h3>
+                    <p class="team-role">Product Developer</p>
+                </li>
+                <li class="team-member">
+                    <img src="./images/img-2.jpg" alt="Tom Ford">
+                    <h3 class="team-name">Tom Ford</h3>
+                    <p class="team-role">Frontend Developer</p>
+                </li>
+                <li class="team-member">
+                    <img src="./images/img-3.jpg" alt="Camila Garcia">
+                    <h3 class="team-name">Camila Garcia</h3>
+                    <p class="team-role">Marketing</p>
+                </li>
+                <li class="team-member">
+                    <img src="./images/img-4.jpg" alt="Daniel Wilson">
+                    <h3 class="team-name">Daniel Wilson</h3>
+                    <p class="team-role">UI Designer</p>
+                </li>
+            </ul>
         </section>
 
-        <!-- Section 2 -->
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
-        </section>
+    <section class="portfolio-section">
+        <h2 class="portfolio-heading">Our Portfolio</h2>
+        <ul class="portfolio-list">
+            <li class="portfolio-item">
+                <img src="./images/img-5.jpg" alt="Banking App" width="360">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="portfolio-category">App</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/img-6.jpg" alt="Cashless Payment" width="360">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-category">Marketing</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/img-7.jpg" alt="Meditation App" width="360">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-category">App</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/img-8.jpg" alt="Taxi Service" width="360">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-category">Marketing</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/img-9.jpg" alt="Screen Illustrations" width="360">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-category">Design</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/img-10.jpg" alt="Online Courses" width="360">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-category">Marketing</p>
+            </li>
+        </ul>
+    </section>
 
-        <!-- Section 3 -->
-        <section>
-            <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <img src="./images/img.jpg" alt="Mark Guerrero" width="264">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/img-2.jpg" alt="Tom Ford" width="264">
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/img-3.jpg" alt="Camila Garcia" width="264">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/img-4.jpg" alt="Daniel Wilson" width="264">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-        </section>
-    </main>
 
     <!-- Footer -->
     <footer>
