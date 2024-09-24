@@ -1,186 +1,169 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
     background-color: #fff;
-    }
-    ul,ol {
-        list-style-type: none;
-    }
-    a {
-        text-decoration: none;
-    }
-    /*============= header===================== */
-    .logo {
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-    }
-    .header-logo .logo-part {
-        color: #2e2f42;
-    }
-    .nav-link {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-    }
-    .nav-link:hover,
-    .nav-link:focus,
-    .address-link:hover,
-    .address-link:focus{
-        color: #404bbf
-    }
-    
-    .address {
-        font-style: normal;
-    }
-    .address-link {
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #434455;
-    }
-    /* ==============/ header======================================= */
-    
-    /* ================== Hero page =============================== */
-    .hero-page{
-        background-color: #2e2f42;
-    }
-    .hero-title{
-        
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 1.07;
-            letter-spacing: 0.02em;
-            text-align: center;
-            color: #fff;
-    }
-       
-    
-    
-    .button-hero {
-        background-color: #4d5ae5;
-        font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;
-            cursor: pointer;
-    }
-    .button-hero:hover,
-    .button-hero:focus {
-        background-color: #404bbf;
-       
-    }
-    
-    
-    
-    /* ===================/Hero imege ============================ */
-       
-    /* =============== advantages ================================== */
-    .advantages-text {
-    color: #fff;
-    }
-    .advantages-link {
+    font-size: 16px;
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+  
+  ul,
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  
+  .title {
+    font-weight: 700;
+  }
+  
+  .text {
+    font-weight: 400;
+  }
+  .logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+  }
+  .logo-part {
+    color: #2e2f42;
+  }
+  
+  .nav-link {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
-    .advantages-link-text { 
-            line-height: 1.5;
-            letter-spacing: 0.02em; 
-    }
-    /* =====================/advantages=====================  */
-    /* ===================== Our Team ============================ */
-    
-    .ourteam-text {
-        
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11;
-            letter-spacing: 0.02em;
-            text-align: center;
-            color: #2e2f42;
-    }
-    .ourteam-link {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-    }
-    .ourteam-link-text {
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            text-align: center;
-            
-    }
-    /* =============== /Our Team ================================== */
-    /* ================= Our portfolio ============================ */
-    .portfolio-row {
-        background-color: #F4F4FD
-    }
-    .portfolio-text {
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11;
-            letter-spacing: 0.02em;
-            text-align: center;
-            color: #2e2f42;
-            text-transform: capitalize;
-    }
-    .portfolio-item{
-    background: #fff;
-    }
-    .portfolio-link{
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-            text-transform: capitalize;
-    }
-    .portfolio-link-text {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
-    .portfolio-row-two {
-        background-color: #F4F4FD
-    }
-    .portfolio-item-two {
-        background: #fff;
-    }
-    .portfolio-link-two {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-transform: capitalize;
-    }
-    .portfolio-link-text-two {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
-    
-    /* ==================== /  Our portfolio ==================== */
-    /* ===================== footer =========================  */
-    .footer-page {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .nav-link:hover {
+    color: #404bbf;
+  }
+  
+  .nav-link:focus {
+    color: #404bbf;
+  }
+  .contacts {
+    font-style: normal;
+  }
+  .contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .contacts-link:hover {
+    color: #404bbf;
+  }
+  .contacts-link:focus {
+    color: #404bbf;
+  }
+  .hero {
     background-color: #2e2f42;
-    }
-    .footer-logo .logo-part {
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .hero-button {
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  .hero-button:focus {
+    background-color: #404bbf;
+  }
+  .hero-button:hover {
+    background-color: #404bbf;
+  }
+  .advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .advantages-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .advantages-sabtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .team {
+    background-color: #f4f4fd;
+  }
+  .team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  .team-item {
+    background-color: #ffffff;
+  }
+  .team-sabtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .team-text {
+    letter-spacing: 0.02em;
+  }
+  .portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  .portfolio-sabtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .portfolio-text {
+    letter-spacing: 0.02em;
+  }
+  .footer-logo .logo-part {
     color: #f4f4fd;
-    }
-    .footer-text {
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #f4f4fd;
-    }
+  }
+  .footer {
+    background-color: #2e2f42;
+  }
+  .footer-text {
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+  }
+  
